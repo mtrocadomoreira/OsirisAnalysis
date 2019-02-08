@@ -48,7 +48,7 @@ wrapper object. The object does also accept a full path.
 
 ## Minimal Usage Example
 
-For simple loading of data with OsirisAnalysis, create and OsirisData object and set the path to a dataset. OsirisData
+For simple loading of data with OsirisAnalysis, create an OsirisData object and set the path to a dataset. OsirisData
 will automatically scan for the input file in the subfolder and check whether data folders exist. If no input file is
 found, or multiple possible ones are found, OsirisData will ask you to choose one.
 
@@ -194,7 +194,7 @@ access the different data dumps with a simple function call.
 
 **Special case for RAW data**
 
-In the case of requesting RAW data dumps (the macro particles), these are returned as a 8-by-N matrix instead of 7
+In the case of requesting RAW data dumps (the macro particles), these are returned as a 10-by-N matrix instead of 7
 (for 2D) or 8 (for 3D) individual arrays, which is the way Osiris stores the data.
 
 The columns are as follows:
